@@ -1,0 +1,419 @@
+/*
+			Master Stylesheet
+	===============================================
+	Template Name : Anso
+	Author : Mohammed Sharif
+	Author URL : https://www.facebook.com/mohammedsharif.geniusboy.5
+	Description :
+	Version :1.0.0
+	Tag :
+*/
+/*
+			Table of Contents
+	===============================================
+	1.Typrography
+	2.Header
+	3.
+	4.
+
+	font-family: 'Montserrat', sans-serif;
+
+*/
+/* ============================
+	style for	Typrography
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	color: #2e2e2e;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.img-fluid{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+h1, h2, h3, h4, h5, h6{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #3d3d3d;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+
+
+}
+p,ul,h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.img-fluid{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.pr-15{
+	padding-right: 30px;
+}
+.col-7{
+	width: 55%;
+}
+.col-5{
+	width: 35%;
+}
+.col-6{
+	width: 48%;
+	background-color: #ffffff;
+	padding-top: 40px;
+	border-radius: 5px;
+	height: 490px;
+	box-shadow: 0 0 20px #a0a0a0;
+}
+h3{
+	font-size: 16px;
+	color: #222222;
+	text-decoration: underline;
+}
+h4{
+	font-size: 12px;
+	color: #2f2f2f;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+h5{
+	font-size: 24px;
+	color: #525252;
+	margin-top: 15px;
+}
+/* =======================================
+			style for header
+======================================= */
+header{
+	padding: 20px 0;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-brand{
+	width: 12%;
+}
+nav{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+}
+header ul{
+	text-align: right;
+	padding-top: 6px;
+}
+header ul li{
+	display: inline-block;
+	list-style: none;
+	transition: 0.2s all ease-in-out;
+}
+header ul li a{
+	font-family: 'Montserrat', sans-serif;
+	color: #070707;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.active a{
+	color: #5ebb46;
+}
+header nav ul:first-child li a:hover{
+	color: #5ebb46;
+	transition: 0.3s all ease-in-out;
+}
+button{
+	height: 35px;
+	width: 120px;
+	border-radius: 3px;
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #a0a0a0;
+	transition: 0.3s all ease-in-out;
+}
+ul li:last-child button{
+	background-color: #5ebb46;
+	border-color: #5ebb46;
+	color: #ffffff;
+	margin-left: 20px;
+}
+ul li:last-child button:hover{
+	background-color: #f7f7f7;
+	border-color: #a0a0a0;
+}
+ul li:last-child button:hover a{
+	color: #000000;
+}
+ul li:last-child button a{
+	color: #ffffff;
+}
+button:hover{
+	background-color: #5ebb46;
+	border-color: #5ebb46;
+}
+button:hover a{
+	color: #ffffff;
+}
+/* =============================
+	style for banner Area
+============================== */
+#bannerArea{
+	background-color: #f7f7f7;
+	padding: 40px 0;
+}
+#bannerArea p{
+	color: #3d3d3d;
+	padding: 35px 0;
+}
+#bannerArea ul li{
+	display: inline-block;
+	list-style: none;
+}
+#bannerArea button{
+	width: 180px;
+	height: 45px;
+	border-radius: 7px;
+}
+#bannerArea ul li:first-child button{
+	background: transparent;
+}
+#bannerArea ul li:first-child:hover button{
+	background: #5ebb46;
+}
+#bannerArea ul li:first-child a{
+	color: #000000;
+}
+#bannerArea ul li:first-child:hover a{
+	color: #ffffff;
+}
+#bannerArea button a{
+	font-size: 16px;
+	text-decoration: none;
+}
+/* ==============================
+	style for choose us
+=============================== */
+#chooseUs{
+	padding: 60px 0;
+}
+#chooseUs p{
+	padding-top: 35px;
+	color: #2e2e2e;
+}
+/* ==============================
+	style for footer
+=============================== */
+.footer{
+	background-color: #5ebb46;
+	padding: 35px 0;
+}
+footer ul li{
+	list-style: none;
+}
+footer ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+}
+footer ul li a:hover{
+	color: #000000;
+}
+.social{
+	display: flex;
+}
+footer .social li{
+	height: 35px;
+	width: 35px;
+	background-color: #a2d894;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+}
+footer .social p{
+	color: #ffffff;
+	margin-right: 10px;
+	font-size: 16px;
+}
+footer .social li a{
+	display: block;
+	margin: 4px
+}
+.anotherFooter{
+	background-color: #252525;
+	padding: 20px 0;
+}
+.anotherFooter p{
+	font-size: 16px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+/* ===================================
+	style for submit now/Pay now
+=================================== */
+#submitNow{
+	background-color: #f7f7f7;
+	padding: 50px 0 70px;
+}
+#submitNow .input{
+	display: flex;
+	justify-content: space-between;
+}
+#submitNow label{
+	font-size: 14px;
+	color: #424143;
+	margin-right: 5px;
+}
+#submitNow span{
+	color: #5ebb46;
+}
+#submitNow input{
+	height: 40px;
+	width: 150px;
+	border-radius: 3px;
+	border: none;
+	border: 1px solid #5ebb46;
+	font-size: 22px;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+.terms{
+	background-color: #eeeeee;
+	padding-bottom: 24px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.terms p{
+	font-size: 10px;
+	line-height: 18px;
+	color: #2f2f2f;
+}
+#submitNow .col-6 ul li{
+	list-style: none;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#submitNow button{
+	width: 220px;
+	height: 50px;
+	margin: 0 auto;
+	display: block;
+}
+#submitNow button{
+	background-color: #5ebb46;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 30px;
+}
+#submitNow button:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+	/* ===============================
+		style for service Area
+	============================== */
+#financeAbout{
+	background-image: url('../img/about-us.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 70px 0;
+}
+#financeAbout h1{
+	font-size: 50px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* =========service area=============== */
+#servicesArea{
+	padding: 70px 0;
+}
+#servicesArea p{
+	font-size: 12px;
+	color: #474747;
+	line-height: 20px;
+}
+#servicesArea .col-4 img{
+	height: 250px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#servicesArea .col-4{
+	width: 30%;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(92, 202, 245, 0.5);
+	height: 420px;
+}
+.programArea .container{
+	border: 2px solid #f4faed;
+	margin-top: 60px;
+	border-radius: 7px;
+	padding: 30px 0;
+}
+.programArea h2{
+	color: #525252;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.content-area{
+	width: 50%;
+	margin: 0 auto;
+}
+.content-area ul{
+	list-style: none;
+	width: 300px;
+}
+.content-area ul li{
+	color: #525252;
+	font-size: 18px;
+}
+/* =================================
+	style for about us page
+================================= */
+#customer, #visionStatement, #dealerPartner{
+	padding: 50px 0;
+}
+.aboutusContent h2{
+	color: #5ebb46;
+	font-size: 30px;
+}
+.aboutusContent p{
+	color: #464646;
+	line-height: 28px;
+	font-family: 'Montserrat', sans-serif;
+}
+#visionStatement{
+	background-color: #f6f6f6;
+}
